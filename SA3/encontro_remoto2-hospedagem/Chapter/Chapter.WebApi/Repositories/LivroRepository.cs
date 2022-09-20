@@ -10,12 +10,13 @@ namespace Chapter.WebApi.Repositories
         // retorna a lista de livros
         public List<Livro> Listar()
         {
-            var livros = new List<Livro>() 
+            var livros = new List<Livro>()
             {
                 new Livro() { Id = 1, Disponivel = true, QuantidadePaginas = 120, Titulo = "O poder do agora" },
                 new Livro() { Id = 2, Disponivel = false, QuantidadePaginas = 220, Titulo = "Do mil ao milhão" },
                 new Livro() { Id = 3, Disponivel = true, QuantidadePaginas = 220, Titulo = "Breves respostas para grandes questões" },
-                new Livro() { Id = 4, Disponivel = false, QuantidadePaginas = 220, Titulo = "Do mil ao milhão" },
+                new Livro() { Id = 4, Disponivel = true, QuantidadePaginas = 120, Titulo = "Orgulho e preconceito" },
+                new Livro() { Id = 5, Disponivel = true, QuantidadePaginas = 450, Titulo = "Os miseráveis"},
             };
             return livros;
         }
