@@ -1,0 +1,17 @@
+Se a versão do .NET estiver destualizada faça...
+
+->Para atualizar:
+clicar com o botao direito em "Solução Chapter"
+depois em gerenciar pacotes NuGet para solução
+ver nas configuraçõ origem do pacote
+adicionor se não tiver esas configurações: nome: nuget.org link:https://api.nuget.org/v3/index.json
+ir em atualizações e instalar
+
+->Para mudar a versão do .NET, faça:
+clique com o botão direito em Chapter.WebApi e selecione Propiedades
+propriedades -> aplicativo-> estrutura de destino-> .net 6.0
+
+->Abrir swager no provedor:
+Start o projeto no VS
+e no provedor coloque:
+localhost:5000/swagger/index.html
