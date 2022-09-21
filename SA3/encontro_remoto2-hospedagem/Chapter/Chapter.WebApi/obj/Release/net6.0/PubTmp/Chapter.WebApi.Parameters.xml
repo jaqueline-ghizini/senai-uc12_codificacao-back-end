@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="jaquelineg-apiChapter" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Jaqueline\\_git\\senai-uc12_codificacao-back-end\\SA3\\encontro_remoto2-hospedagem\\Chapter\\Chapter\.WebApi\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

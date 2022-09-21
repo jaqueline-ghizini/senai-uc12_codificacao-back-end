@@ -1,0 +1,12 @@
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.exe
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\web.config
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.deps.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.runtimeconfig.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.pdb
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA3\encontro_remoto2-hospedagem\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
