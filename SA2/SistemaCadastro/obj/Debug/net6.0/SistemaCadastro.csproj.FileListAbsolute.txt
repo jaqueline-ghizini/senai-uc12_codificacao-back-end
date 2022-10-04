@@ -1,0 +1,15 @@
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\bin\Debug\net6.0\SistemaCadastro.exe
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\bin\Debug\net6.0\SistemaCadastro.deps.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\bin\Debug\net6.0\SistemaCadastro.runtimeconfig.json
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\bin\Debug\net6.0\SistemaCadastro.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\bin\Debug\net6.0\SistemaCadastro.pdb
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.csproj.AssemblyReference.cache
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.AssemblyInfoInputs.cache
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.AssemblyInfo.cs
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.csproj.CoreCompileInputs.cache
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\refint\SistemaCadastro.dll
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.pdb
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.genruntimeconfig.cache
+D:\Jaqueline\_git\senai-uc12_codificacao-back-end\SA2\SistemaCadastro\obj\Debug\net6.0\ref\SistemaCadastro.dll
