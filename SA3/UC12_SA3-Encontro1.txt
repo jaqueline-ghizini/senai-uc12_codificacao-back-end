@@ -1,0 +1,23 @@
+CREATE DATABASE CRIPTO3
+
+USE CRIPTO3
+
+CREATE TABLE Usuarios
+(
+	UsuarioID INT PRIMARY KEY IDENTITY,
+	Email VARCHAR(100) UNIQUE NOT NULL,
+	Senha VARCHAR(50) NOT NULL
+)
+
+INSERT INTO Usuarios VALUES ('email@email', 1234)
+INSERT INTO Usuarios VALUES ('caique@email', 56789)
+INSERT INTO Usuarios VALUES ('jaqueline@email', 22334455)
+
+SELECT * FROM Usuarios
+
+SELECT UsuarioID, Email, HASHBYTES('MD2', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
+SELECT UsuarioID, Email, HASHBYTES('MD4', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
+SELECT UsuarioID, Email, HASHBYTES('MD5', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
+SELECT UsuarioID, Email, HASHBYTES('SHA', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
+SELECT UsuarioID, Email, HASHBYTES('SHA2_256', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
+SELECT UsuarioID, Email, HASHBYTES('SHA2_512', Senha) AS 'Senha HASH' FROM Usuarios WHERE UsuarioID = 3
