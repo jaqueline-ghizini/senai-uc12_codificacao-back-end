@@ -13,7 +13,7 @@ A ClientLab é uma empresa fictícia focada na gestão de clientes e, atualmente
 ##  <img align="center" alt="Jaque-Csharp" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> Tecnologias Utilizadas 
 Foram escolhidas nesse projeto:
 + Linguagem C# (Csharp). Por ser uma linguagem de alto nível e orientada a objeto.
-- .NET (Donet). Por ser um framework que fornece diversos serviços como uma biblioteca de classes e mecanismo de execusão para aplicativos. 
+- .NET 6.0 (Donet). Por ser um framework que fornece diversos serviços como uma biblioteca de classes e mecanismo de execusão para aplicativos. 
 
 ## <img align="center" alt="Jaque-vscode" height="30" width="30" src="https://img.icons8.com/color/48/000000/note.png" /> Organização do Projeto ##
 O projeto tem uma estrutura orientada a objeto com uma relação de Herança entre as Classes, sendo elas:
