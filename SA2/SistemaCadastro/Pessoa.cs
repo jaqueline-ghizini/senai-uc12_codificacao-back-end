@@ -8,13 +8,11 @@ namespace SistemaCadastro
     public abstract class Pessoa // classe mae superclasse
     {
         //Atributos
-        public string? nome {get; set;} //ao colocar interrogação depois de string, quer dizer que é um campo de preenchimento não obrigatório
+        public string nome {get; set;} //ao colocar interrogação depois de string, quer dizer que é um campo de preenchimento não obrigatório
 
-        public string? endereco { get; set; }
-
-        public bool enderecoComercial { get; set;}
+        public Endereco endereco { get; set; } // pega/recebe os atributos da classe Endereco
 
         //Metodo
-        public void PagarImposto(){}
+        public abstract void PagarImposto(float rendimento);
     }
 }
