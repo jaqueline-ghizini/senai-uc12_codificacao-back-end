@@ -22,7 +22,12 @@ namespace SistemaCadastro{//classe principal
             Console.WriteLine("*                                *");
             Console.WriteLine("*                                *");
             Console.WriteLine("**********************************");
-            
+
+            /* 
+            Pessoa jaqueline = new Pessoa();
+            jaqueline.endereco = "tua testada";
+
+            Console.WriteLine(jaqueline.endereco);*/
         }
 
     }
