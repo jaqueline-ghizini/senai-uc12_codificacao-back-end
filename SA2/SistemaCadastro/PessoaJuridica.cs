@@ -14,9 +14,31 @@ namespace SistemaCadastro
         public override void PagarImposto(float rendimento){ ////o override faz pegar o método da classe mae e sobrecreve na classe filha
 
         }
+        public bool ValidarCnpj(String cnpj){
+            //minha resolução:
+            cnpj = string.Join("", cnpj.Split('@', ',', '.', ';', '-', ' ', '|', '/', '\''));//remove espeços e caracteres especiais
+            char[] numcnpj = cnpj.ToCharArray();//coloca os valores do cnpj separadamente em uma array 
+            
+            //verificando quantidade de números e verificando os numeros finais
+            if((cnpj.Length == 14)&&(numcnpj[10]=='0') && (numcnpj[11]=='0') && (numcnpj[12]=='0') && (numcnpj[13]=='1')){  
+                return true;
+            }else{
+                return false;
+            }
+
+            //resolução em aula
+            /* if((cnpj.Length >=14) && ((cnpj.Substring(cnpj.Length - 4))=="0001")){///seleciona apenas os ultimos 4 numeros por meio do substring
+                return true;
+            }else{
+                return false;
+            }
+            */
+        }
     }
 }
 /*
+char[] numero = new char[4] {'0','0','0','1'}; //como declarar uma array, pode ser também com outros valores, como strings e int
+
 sobrescrita - sobrecarga
 
 sobrescrita (override)
