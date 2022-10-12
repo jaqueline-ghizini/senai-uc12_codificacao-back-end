@@ -11,8 +11,16 @@ namespace SistemaCadastro
 
         public string razaoSocial {get;set;}
 
-        public override void PagarImposto(float rendimento){ ////o override faz pegar o método da classe mae e sobrecreve na classe filha
-
+        public override float PagarImposto(float rendimento){ ////o override faz pegar o método da classe mae e sobrecreve na classe filha
+            float impostotoal =0;
+            if(rendimento <= 5000){
+                impostotoal =rendimento*6/100;
+            }else if((rendimento > 5000)&&(rendimento <= 10000)){
+                impostotoal =rendimento*8/100;
+            }else {
+                impostotoal = rendimento*10/100;
+            }
+            return impostotoal;
         }
         public bool ValidarCnpj(String cnpj){
             //minha resolução:

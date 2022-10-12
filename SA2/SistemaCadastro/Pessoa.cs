@@ -13,6 +13,6 @@ namespace SistemaCadastro
         public Endereco endereco { get; set; } // pega/recebe os atributos da classe Endereco
 
         //Metodo
-        public abstract void PagarImposto(float rendimento);
+        public abstract float PagarImposto(float rendimento);
     }
 }

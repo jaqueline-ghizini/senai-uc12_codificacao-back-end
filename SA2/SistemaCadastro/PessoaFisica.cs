@@ -8,10 +8,17 @@ namespace SistemaCadastro
     public class PessoaFisica : Pessoa // os dois pontos indica que uma classe está herdando da outra
     {
         public string cpf {get;set;}
-
         public DateTime dataNascimento {get;set;}
+        public float salario {get;set;}
 
-        public override void PagarImposto(float rendimento){ //o override faz pegar o método da classe mae e sobrecreve na classe filha
+        public override float PagarImposto(float salario){ //o override faz pegar o método da classe mae e sobrecreve na classe filha
+            if(salario <= 1500){
+                return 0;
+            }else if((salario >1500)&&(salario <= 5000)){
+                return salario*3/100;
+            }else {
+                return salario*5/100;
+            }
         }
 
         public bool ValidarDataNascimento(DateTime dataNascimento){
