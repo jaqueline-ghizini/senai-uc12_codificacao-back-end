@@ -7,7 +7,7 @@ Documentação técnica, por meio de um arquivo readme.md, do sistema de cliente
 ___
 ## <img align="center" alt="Jaque-Csharp" height="30" width="30" src="https://img.icons8.com/color/48/000000/light.png"> Feature 
 
-A ClientLab é uma empresa fictícia focada na gestão de clientes e, atualmente, mantém a sua base de registro em papel e não possui nenhuma automatização ou tecnologia que facilite o processo de busca de clientes e/ou registro de suas atividades. O Sistema de Cadastro foi feito vizando automatizar essas atividades, por meio da realização do cadastro por meio do usuário e da criação de um arquivo com o registro dos dados.
+A ClientLab é uma empresa fictícia focada na gestão de clientes e, atualmente, mantém a sua base de registro em papel e não possui nenhuma automatização ou tecnologia que facilite o processo de busca de clientes e/ou registro de suas atividades. O Sistema de Cadastro foi feito vizando automatizar essas atividades, por meio da realização do cadastro por meio do usuário e da criação de um arquivo com o registro dos dados. Também esse projeto trouxe duas formas diferentes de salvar os dados em arquivos, sendo poessoa física no .txt e pessoa jurídica no csv. 
 
 
 ##  <img align="center" alt="Jaque-Csharp" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> Tecnologias Utilizadas 
