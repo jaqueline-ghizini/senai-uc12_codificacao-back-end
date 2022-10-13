@@ -1,0 +1,9 @@
+
+Nome: Artur
+CPF: 222
+Nascido em: 04/01/1993
+Endereco: rua abc - 2
+Complemento: alguma coisa
+Endereco comercial: False
+Salario: 1490
+Imposto: 0

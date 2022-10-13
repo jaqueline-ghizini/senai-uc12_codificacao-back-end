@@ -1,0 +1,9 @@
+
+Nome: Ana
+CPF: 111
+Nascido em: 10/09/1998
+Endereco: rua tal - 1
+Complemento: 
+Endereco comercial: False
+Salario: 1500,79
+Imposto: 45,0237

@@ -11,6 +11,11 @@ namespace SistemaCadastro
 
         public string razaoSocial {get;set;}
 
+        public float rendimento {get;set;}
+
+        //indicou o caminho pra salvar os arquivos.
+        public string caminho {get; private set;} = "Database/PessoaJuridica.csv";
+
         public override float PagarImposto(float rendimento){ ////o override faz pegar o método da classe mae e sobrecreve na classe filha
             float impostotoal =0;
             if(rendimento <= 5000){
@@ -22,6 +27,8 @@ namespace SistemaCadastro
             }
             return impostotoal;
         }
+
+        //metodo de validar cnpj
         public bool ValidarCnpj(String cnpj){
             //minha resolução:
             cnpj = string.Join("", cnpj.Split('@', ',', '.', ';', '-', ' ', '|', '/', '\''));//remove espeços e caracteres especiais
@@ -33,7 +40,6 @@ namespace SistemaCadastro
             }else{
                 return false;
             }
-
             //resolução em aula
             /* if((cnpj.Length >=14) && ((cnpj.Substring(cnpj.Length - 4))=="0001")){///seleciona apenas os ultimos 4 numeros por meio do substring
                 return true;
@@ -41,6 +47,30 @@ namespace SistemaCadastro
                 return false;
             }
             */
+        }
+
+        //executando o método puxado de pessoa
+        public void Inserir(PessoaJuridica pj){
+            verificarPastaArquivo(caminho);
+
+            string[] pjstring = {$"{pj.nome}, {pj.cnpj}, {pj.razaoSocial}"};
+            File.AppendAllLines(caminho, pjstring);//passa o caminho e a lista
+        }
+        public List<PessoaJuridica> Ler(){//lista paara ler os dados do arquivo na parte de consulta
+            List<PessoaJuridica> listapj = new List<PessoaJuridica>();
+            
+            string[] linhas = File.ReadAllLines(caminho);
+            
+            foreach (string cadaLinha in linhas){
+                string[] atributos = cadaLinha.Split(",");
+                PessoaJuridica cadaPj = new PessoaJuridica();
+
+                cadaPj.nome = atributos[0];
+                cadaPj.cnpj = atributos[1];
+                cadaPj.razaoSocial = atributos[2];
+                listapj.Add(cadaPj);
+            }
+            return listapj;
         }
     }
 }
